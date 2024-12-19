@@ -1,0 +1,1 @@
+This repository demonstrates a common error in shell scripting: failure to handle cases where an input file might not exist.  The `bug.sh` script shows the incorrect approach, which throws an error if the file is missing. The `bugSolution.sh` provides the corrected version, using an `if` statement to check for the file's existence before processing.
